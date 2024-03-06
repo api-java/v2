@@ -1,6 +1,6 @@
 #!/bin/bash
 
 args=$@
-is_sh_ver=v4.27.5
+is_sh_ver=v1.2
 
 . /etc/v2ray/sh/src/init.sh
