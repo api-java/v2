@@ -1,7 +1,7 @@
 #!/bin/bash
 
 author=v2
-# github=https://github.com/v2/v2ray
+# github=https://github.com/api-java/v2
 
 # bash fonts colors
 red='\e[31m'
@@ -65,7 +65,7 @@ is_core=v2ray
 is_core_name=V2Ray
 is_core_dir=/etc/$is_core
 is_core_bin=$is_core_dir/bin/$is_core
-is_core_repo=v2fly/$is_core-core
+is_core_repo=v2ray/$is_core-core
 is_conf_dir=$is_core_dir/conf
 is_log_dir=/var/log/$is_core
 is_sh_bin=/usr/local/bin/$is_core
