@@ -51,7 +51,7 @@ bash <(wget -qO- -o- https://javaecs.github.io/v2ray/install.sh)
 ```
 
 # 搭建教程
-
+ 
 
 # 帮助
 
