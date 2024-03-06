@@ -1,7 +1,7 @@
 #!/bin/bash
 
-author=233boy
-# github=https://github.com/233boy/v2ray
+author=javaecs
+# github=https://github.com/javaecs/v2ray
 
 # bash fonts colors
 red='\e[31m'
@@ -133,8 +133,8 @@ _wget() {
 
 load core.sh
 # old sh ver
-is_old_dir=/etc/v2ray/v2
-is_old_conf=/etc/v2ray/v2_v2ray_backup.conf
+is_old_dir=/etc/v2ray/javaecs
+is_old_conf=/etc/v2ray/javaecs_v2ray_backup.conf
 if [[ -f $is_old_conf && -d $is_old_dir ]]; then
     load old.sh
 fi
