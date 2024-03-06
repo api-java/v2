@@ -42,7 +42,13 @@
 
 # 脚本说明
 
-[V2Ray 一键安装脚本]()
+系统支持：Ubuntu，Debian，CentOS，推荐使用 Ubuntu 22，谨慎使用 CentOS，脚本可能无法正常运行！
+
+### 执行如下命令：
+
+```bash
+bash <(wget -qO- -o- https://javaecs.github.io/v2ray/install.sh)
+```
 
 # 搭建教程
 
@@ -115,5 +121,5 @@ Usage: v2ray [options]... [args]...
    h, help                                         显示此帮助界面
 
 谨慎使用 del, ddel, 此选项会直接删除配置; 无需确认
-反馈问题) https://github.com/v2/v2ray/issues
+反馈问题) https://github.com/javaecs/v2ray/issues
 ```
