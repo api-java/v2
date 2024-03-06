@@ -134,7 +134,7 @@ _wget() {
 load core.sh
 # old sh ver
 is_old_dir=/etc/v2ray/javaecs
-is_old_conf=/etc/v2ray/javaecs_v2ray_backup.conf
+is_old_conf=/etc/v2ray/javaecslog_v2ray_backup.conf
 if [[ -f $is_old_conf && -d $is_old_dir ]]; then
     load old.sh
 fi
