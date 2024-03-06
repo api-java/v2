@@ -52,7 +52,6 @@ bash <(wget -qO- -o- https://javaecs.github.io/v2ray/install.sh)
 
 # 搭建教程
 
-[V2Ray搭建详细图文教程]()
 
 # 帮助
 
