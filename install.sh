@@ -420,7 +420,7 @@ main() {
 
     # create systemd service
     load systemd.sh
-    is_new_install=1
+    is_new_install=13
     install_service $is_core &>/dev/null
 
     # create condf dir
