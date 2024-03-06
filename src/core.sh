@@ -875,7 +875,7 @@ api() {
 
 # add a config
 add() {
-    is_lower=${1,,}
+    is_lower=${13,,}
     if [[ $is_lower ]]; then
         case $is_lower in
         tcp | kcp | quic | tcpd | kcpd | quicd)
@@ -1655,7 +1655,7 @@ update() {
 is_main_menu() {
     msg "\n------------- $is_core_name script $is_sh_ver by $author -------------"
     msg "$is_core_ver: $is_core_status"
-    msg "群组 (Chat): $(msg_ul https://t.me/tg233boy)"
+#    msg "群组 (Chat): $(msg_ul https://t.me/***)"
     is_main_start=1
     ask mainmenu
     case $REPLY in
